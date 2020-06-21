@@ -3,7 +3,7 @@
 import React from 'react';
 
 //import Home component
-import Home from './Component/Home/Home';
+import Home from './Component/Home/home';
 
 //import needed components from the lib react-materialize
 import { Container } from 'react-materialize';
@@ -12,6 +12,7 @@ const Main =() => (
     <main>
         <Container>
             <Home></Home>
+            
         </Container>
     </main>
 );

@@ -15,6 +15,7 @@ class App extends Component {
 
         <div>
           <Header/>
+          <Main></Main>
           
         
         </div>
