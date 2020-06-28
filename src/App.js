@@ -1,27 +1,20 @@
-import React, {Component} from 'react';
-import './App.css';
-//import Home from './Component/Home';
+import React from 'react';
 
-//import Header component
-import Header from './Component/Header/header';
+import Home from './pages/home';
+import GlobalStyles from './GlobalStyles';
 
-//import Main component
-import Main from './main';
 
-class App extends Component {
-    render(){
-      
+function App() {  
       return (
 
-        <div>
-          <Header/>
-          <Main></Main>
-          
-        
-        </div>
+        <>
+          <GlobalStyles/>
+          <Home/>
+               
+        </>
                            
   );
 }
-}
+
 
 export default App;
