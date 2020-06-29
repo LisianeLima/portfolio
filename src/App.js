@@ -6,7 +6,6 @@ import GlobalStyles from './GlobalStyles';
 
 function App() {  
       return (
-
         <>
           <GlobalStyles/>
           <Home/>
@@ -15,6 +14,5 @@ function App() {
                            
   );
 }
-
 
 export default App;
