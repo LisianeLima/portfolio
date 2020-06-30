@@ -17,6 +17,6 @@ Buttom.propTypes={
 }
 
 Buttom.propsDefault = {
-	width: 20,
+	width:15,
 }
 export default Buttom;

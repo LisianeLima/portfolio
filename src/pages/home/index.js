@@ -12,6 +12,7 @@ import github from '../../assets/imagem-do-github.svg'
 import linkedin from '../../assets/linkedin.svg'
 import gmail from '../../assets/gmail.svg'
 import SocialMedia from '../../components/SocialMedia';
+import Buttom from '../../components/Buttom';
 
 //object info
     const info ={
@@ -35,6 +36,10 @@ function Home() {
             <NavBar/>
             <Section height="600" background="#e5e5e5" id="home">
                 <Info info={info}>
+                <div>
+                    <Buttom primary name="My Works" width={20}/>
+                    <Buttom name="About Me" width={20}/>
+                </div>
                 <SocialMedia social={social}></SocialMedia>
                 </Info>
                 
