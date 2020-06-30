@@ -6,7 +6,7 @@ import InfoImg from '../../components/InfoImg';
 import img from '../../assets/map.png'
 //import NavItem from '../../components/NavBarItem';
 
-//import { Container } from './styles';
+import { Container } from './styles';
 // const links = [
 //     {icon:"home", link:"#home", name:'home'},
 //     {icon:"info", link:"#about", name:'about'},
@@ -23,7 +23,10 @@ function Contact() {
      <Form>
          {/* <NavItem itens={links}/> */}
      </Form>
+     <Container>
      <InfoImg img={img}></InfoImg>
+     </Container>
+     
      </Section>
      
    </>
