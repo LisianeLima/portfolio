@@ -17,6 +17,8 @@ function SocialMedia({social}){
         </Container>
     )
 }
+
+//props to validate the social
 SocialMedia.propTypes = {
     social:PropTypes.array.isRequired
   }

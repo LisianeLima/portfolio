@@ -12,6 +12,7 @@ function NavItem({items, onClick}) {
         return (
           <li key={link.name}>
             <a href = {link.link}
+            
             onClick = {onClick}> <MaterialIcon icon = {link.icon }
             />{link.name}</a>
           </li>

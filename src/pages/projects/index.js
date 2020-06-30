@@ -13,15 +13,35 @@ import { ProjectContainer } from '../../components/Section/styles';
 //import { Container } from './styles';
 
 const projects ={
-  title:'My Projects',
-  description:'Lorem impsum dolor iset Lorem impsum dolor iset Lorem impsum dolor iset Lorem impsum dolor iset Lorem impsum dolor iset Lorem impsum dolor isetLorem impsum dolor iset Lorem impsum dolor iset Lorem impsum dolor iset Lorem impsum dolor iset Lorem impsum dolor iset Lorem impsum dolor iset',
+  title:'CV Redes',
+  description:'project created in the discipline of networks with the objective of configuring and implementing network interconnection in Cape Verde using the packetTracer simulator',
   items:[
     {img:ilustrator},
     {img:java},
     {img:android},
-
+    
   ]
 }
+const project1 ={
+    title:'Telepone Book',
+    description:'project developed in the scope of the programming discipline on mobile devices, using the android programming language that consists of a shopping list',
+    items:[
+      {img:ilustrator},
+      {img:java},
+      {img:android},
+      
+    ]
+  }
+  const project2 ={
+    title:'PWeb',
+    description:'Web page created in the Programming on the web discipline, using html, css and javaScript resources',
+    items:[
+      {img:ilustrator},
+      {img:java},
+      {img:android},
+      
+    ]
+  }
 function Project() {
   return (
    <>
@@ -31,15 +51,16 @@ function Project() {
      <Section height="500" id="project">
      <ProjectContainer>
      <Info  info={projects} background="#e5e5e5">
+     
      <Buttom name="more details"/>
 
-</Info>
-<Info  info={projects} background="white">
-<Buttom name="more details"/>
-</Info>
-<Info  info={projects} background="#e5e5e5">
-<Buttom name="more details"/>
-</Info>
+    </Info>
+    <Info  info={project1} background="white">
+    <Buttom name="more details"/>
+    </Info>
+    <Info  info={project2} background="#e5e5e5">
+    <Buttom name="more details"/>
+    </Info>
      </ProjectContainer>
     </Section>
    </>

@@ -18,14 +18,14 @@ import Buttom from '../../components/Buttom';
     const info ={
         hello: "Hello I'm",
         title: "Lisiane Lima",
-        description: " Ullamco ullamco quis deserunt nisi fugiat sit consequat veniam"
+        description: "Computer Engineering student at University of Mindelo"
     }
 
 //function from socialmedia to add an array list of the icons
 const social=[
-    {link:"facebook.com/lisianelima",icon:facebook, name:"facebook"},
-    {link:"github.com/lisianelima",icon:github, name:"github"},
-    {link:"linkedin.com/lisianelima",icon:linkedin, name:"linkedin"},
+    {link:"https://www.facebook.com/lisy.lima.146",icon:facebook, name:"facebook"},
+    {link:"https://github.com/LisianeLima",icon:github, name:"github"},
+    {link:"https://www.linkedin.com/in/lisiane-lima-506b161ab/",icon:linkedin, name:"linkedin"},
     {link:"gmail.com/lisianelima",icon:gmail, name:"gmail"},
   ]
 

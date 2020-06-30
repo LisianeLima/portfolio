@@ -16,11 +16,18 @@ function NavBar() {
         {icon:"phone", link:"#contact", name:'contact'},
       ]
 
+      // this.state = {
+      //   prevScrollpos: window.pageYOffset,
+      //   visible: true
+      // };
+
   return (
     <Container>
+      
         <Logo></Logo>
       <NavItem items={links} />
     </Container>
+    
   );
   }
 
